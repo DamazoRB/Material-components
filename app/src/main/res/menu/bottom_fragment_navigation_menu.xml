@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ bottom_navigation_menu.xml
+  ~ CitiMobileApp Android
+  ~ Created by rodrigo.bautista on 7/27/20 1:28 AM
+  ~ Copyright © 2020 Globant-MX. All rights reserved.
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav1"
+            android:icon="@drawable/ic_message"
+            android:title="Option one" />
+        <item
+            android:id="@+id/nav2"
+            android:icon="@drawable/ic_message"
+            android:title="Option two" />
+        <item
+            android:id="@+id/nav3"
+            android:icon="@drawable/ic_message"
+            android:title="Option three" />
+        <item
+            android:id="@+id/nav4"
+            android:icon="@drawable/ic_message"
+            android:title="Option four" />
+        <item
+            android:id="@+id/nav5"
+            android:icon="@drawable/ic_message"
+            android:title="Option five" />
+        <item
+            android:id="@+id/nav6"
+            android:icon="@drawable/ic_message"
+            android:title="Option six" />
+        <item
+            android:id="@+id/nav7"
+            android:icon="@drawable/ic_message"
+            android:title="Option seven" />
+        <item
+            android:id="@+id/nav8"
+            android:icon="@drawable/ic_message"
+            android:title="Option eight" />
+        <item
+            android:id="@+id/nav9"
+            android:icon="@drawable/ic_message"
+            android:title="Option nine" />
+        <item
+            android:id="@+id/nav10"
+            android:icon="@drawable/ic_message"
+            android:title="Option ten" />
+        <item
+            android:id="@+id/nav11"
+            android:icon="@drawable/ic_message"
+            android:title="Option eleven" />
+        <item
+            android:id="@+id/nav12"
+            android:icon="@drawable/ic_message"
+            android:title="Option twelve" />
+        <item
+            android:id="@+id/nav13"
+            android:icon="@drawable/ic_message"
+            android:title="Option thirteen" />
+
+    </group>
+</menu>

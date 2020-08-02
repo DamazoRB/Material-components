@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ bottom_navigation_menu.xml
+  ~ CitiMobileApp Android
+  ~ Created by rodrigo.bautista on 7/27/20 1:28 AM
+  ~ Copyright © 2020 Globant-MX. All rights reserved.
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_option_one"
+        android:enabled="true"
+        android:icon="@drawable/ic_notifications"
+        android:title="@string/menu_option_one" />
+    <item
+        android:id="@+id/menu_option_two"
+        android:enabled="true"
+        android:icon="@drawable/ic_home"
+        android:title="@string/menu_option_two" />
+
+    <item
+        android:id="@+id/menu_option_three"
+        android:enabled="true"
+        android:icon="@drawable/ic_mobile"
+        android:title="@string/menu_option_three" />
+</menu>

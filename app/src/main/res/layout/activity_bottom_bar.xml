@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ activity_new.xml
+  ~ CitiMobileApp Android
+  ~ Created by rodrigo.bautista on 7/28/20 12:25 AM
+  ~ Copyright © 2020 Globant-MX. All rights reserved.
+  -->
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nestedScollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:text="@string/lorem"
+            android:textSize="20sp"/>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottomAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        app:backgroundTint="@color/colorPrimary"
+        app:fabAlignmentMode="end"
+        app:fabCradleVerticalOffset="0dp"
+        app:fabAnimationMode="slide"
+        app:hideOnScroll="true"
+        app:menu="@menu/bottom_app_bar_menu"
+        app:navigationIcon="@drawable/ic_menu"
+        app:navigationContentDescription="back"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButtonAnchored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        app:layout_anchor="@id/bottomAppBar"
+        app:srcCompat="@drawable/ic_mobile"/>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
